@@ -1,0 +1,18 @@
+body{
+    background-color: #ff0000;
+}
+h1{
+    color:white;
+    font-family:fantasy;
+    animation: mySlide;
+    animation-duration: 3s;
+}
+.header{
+    position: absolute;
+    animation: mySlide;
+    animation-duration: 3s;
+}
+@keyframes mySlide{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+}
